@@ -1,0 +1,78 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+body
+    {
+        font-family: sans-serif;
+        height: 100vh;
+        width: 100vw;
+        background: rgb(230,181,71);
+background: linear-gradient(114deg, rgba(230,181,71,1) 0%, rgba(255,74,0,1) 100%);
+    }
+//Choosing
+#chooseWeapon
+    {
+        width: 100%;
+        height: 20%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 6vw;
+        flex-direction: column;
+        #weapons
+            {
+                display: flex;
+                .wewe
+                    {
+                        width: 9vw;
+                        transition-duration: 300ms;
+                        &:hover
+                            {
+                                width: 12vw;
+                            }
+                    }
+            }
+    }
+
+
+
+
+
+
+    //Actual Game
+
+    #actualGame
+        {
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .bigPic
+                {
+                    width: 30vw;
+                }
+        }
+    
+
+
+
+
+
+    //Score Board
+
+    #scoreBoard 
+        {
+            height: 20%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            font-size: 4vw;
+        }
